@@ -1,0 +1,41 @@
+test_boundary_lengths_and_counter_wrap (test_isotp.TransportTests.test_boundary_lengths_and_counter_wrap) ... ok
+test_busy_and_clock (test_isotp.TransportTests.test_busy_and_clock) ... ok
+test_consecutive_timeout (test_isotp.TransportTests.test_consecutive_timeout) ... ok
+test_flow_control_timeout (test_isotp.TransportTests.test_flow_control_timeout) ... ok
+test_invalid_and_unrelated_frames (test_isotp.TransportTests.test_invalid_and_unrelated_frames) ... ok
+test_invalid_stmin_and_late_fc (test_isotp.TransportTests.test_invalid_stmin_and_late_fc) ... ok
+test_random_roundtrips (test_isotp.TransportTests.test_random_roundtrips) ... ok
+test_sequence_mismatch (test_isotp.TransportTests.test_sequence_mismatch) ... ok
+test_wait_limit_and_overflow (test_isotp.TransportTests.test_wait_limit_and_overflow) ... ok
+test_block_counter_wrap (test_programming.ProgrammingTests.test_block_counter_wrap) ... ok
+test_bounds_and_wrong_address (test_programming.ProgrammingTests.test_bounds_and_wrong_address) ... ok
+test_complete_update_and_diagnostics (test_programming.ProgrammingTests.test_complete_update_and_diagnostics) ... ok
+test_crc_failure_does_not_activate (test_programming.ProgrammingTests.test_crc_failure_does_not_activate) ... ok
+test_dropped_consecutive_frame_aborts_transport (test_programming.ProgrammingTests.test_dropped_consecutive_frame_aborts_transport) ... ok
+test_expired_challenge_rejected (test_programming.ProgrammingTests.test_expired_challenge_rejected) ... ok
+test_key_replay_rejected (test_programming.ProgrammingTests.test_key_replay_rejected) ... ok
+test_lost_transfer_ack_is_idempotent (test_programming.ProgrammingTests.test_lost_transfer_ack_is_idempotent) ... ok
+test_out_of_order_and_incomplete (test_programming.ProgrammingTests.test_out_of_order_and_incomplete) ... ok
+test_response_pending_flood_is_bounded (test_programming.ProgrammingTests.test_response_pending_flood_is_bounded) ... ok
+test_rollback_version_rejected (test_programming.ProgrammingTests.test_rollback_version_rejected) ... ok
+test_security_lockout (test_programming.ProgrammingTests.test_security_lockout) ... ok
+test_session_and_security_gates (test_programming.ProgrammingTests.test_session_and_security_gates) ... ok
+test_session_expiry_aborts_download (test_programming.ProgrammingTests.test_session_expiry_aborts_download) ... ok
+test_tester_present_keeps_session (test_programming.ProgrammingTests.test_tester_present_keeps_session) ... ok
+test_timeout_no_automatic_erase_retry (test_programming.ProgrammingTests.test_timeout_no_automatic_erase_retry) ... ok
+test_transfer_duplicate_changed_payload_rejected (test_programming.ProgrammingTests.test_transfer_duplicate_changed_payload_rejected) ... ok
+test_unknown_services_and_invalid_lengths (test_programming.ProgrammingTests.test_unknown_services_and_invalid_lengths) ... ok
+test_unrelated_response_rejected (test_programming.ProgrammingTests.test_unrelated_response_rejected) ... ok
+test_voltage_and_engine_interlocks (test_programming.ProgrammingTests.test_voltage_and_engine_interlocks) ... ok
+test_voltage_loss_mid_transfer (test_programming.ProgrammingTests.test_voltage_loss_mid_transfer) ... ok
+test_image_integrity_and_lengths (test_programming.StorageTests.test_image_integrity_and_lengths) ... ok
+test_metadata_corruption_fails_closed (test_programming.StorageTests.test_metadata_corruption_fails_closed) ... ok
+test_power_loss_after_commit (test_programming.StorageTests.test_power_loss_after_commit) ... ok
+test_power_loss_after_staging (test_programming.StorageTests.test_power_loss_after_staging) ... ok
+test_power_loss_before_commit (test_programming.StorageTests.test_power_loss_before_commit) ... ok
+test_staged_tampering (test_programming.StorageTests.test_staged_tampering) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.503s
+
+OK

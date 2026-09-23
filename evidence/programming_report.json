@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "sha256": "7390249ebaa1cdd05ee28509128f26445c002358ba732781fdb1062f09542d2b",
+  "bytes": 5168,
+  "elapsed_simulated_ms": 1005,
+  "dtcs_preserved": true,
+  "events": [
+    {
+      "event": "transfer_retry",
+      "offset": 0
+    },
+    {
+      "event": "response_pending",
+      "ms": 965
+    }
+  ],
+  "environment": "Virtual ECU and virtual CAN; no physical flashing",
+  "fault_injection": "First TransferData acknowledgement dropped"
+}
